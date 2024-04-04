@@ -57,3 +57,8 @@ void LinearSearch()
         if (i == n)
             cout << "\n" << item << " not found in the array\n";
         cout << "\nNumber of comparasions: " << ctr << endl;
+
+        cout << "\nContinue search (y/n): ";
+        cin >> ch;
+
+    }
